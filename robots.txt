@@ -1,0 +1,14 @@
+# robots.txt — Pawan Kumar Rai Portfolio
+# https://pawanrai.vercel.app/
+
+# Allow all crawlers full access
+User-agent: *
+Allow: /
+
+# Point to sitemap
+Sitemap: https://pawanrai.vercel.app/sitemap.xml
+
+# Block common junk paths (nothing exists there but keeps logs clean)
+Disallow: /api/
+Disallow: /.env
+Disallow: /.git/
